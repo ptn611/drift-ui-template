@@ -21,7 +21,7 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@velocity-exchange/sdk": ["../drift-common/protocol/sdk"]
+      "@velocity-exchange/sdk": ["../../protocol-v2/sdk"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

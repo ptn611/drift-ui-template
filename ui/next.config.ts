@@ -16,8 +16,8 @@ const nextConfig: NextConfig = {
   },
   turbopack: {
     resolveAlias: {
-      "@velocity-exchange/common": "../drift-common/common-ts/lib/index.js",
-      "@velocity-exchange/sdk": "../drift-common/protocol/sdk",
+      "@velocity-exchange/common": "../../velocity-common/common-ts/lib/index.js",
+      "@velocity-exchange/sdk": "../../protocol-v2/sdk",
       fs: { browser: "./node-browser-compatibility.js" },
       net: { browser: "./node-browser-compatibility.js" },
       dns: { browser: "./node-browser-compatibility.js" },

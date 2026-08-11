@@ -13,13 +13,13 @@ import {
   MarketId,
   PerpPositionInfo,
   TRADING_UTILS,
-} from "@drift-labs/common";
+} from "@velocity-exchange/common";
 import {
   BigNum,
   PositionDirection,
   PRICE_PRECISION_EXP,
   ZERO,
-} from "@drift-labs/sdk";
+} from "@velocity-exchange/sdk";
 import { useDriftStore } from "@/stores/DriftStore";
 import { useMarkPriceStore } from "@/stores/MarkPriceStore";
 import { Info } from "lucide-react";

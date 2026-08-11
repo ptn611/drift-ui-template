@@ -1,5 +1,5 @@
 import { toast } from "sonner";
-import { GeoBlockError } from "@drift-labs/common";
+import { GeoBlockError } from "@velocity-exchange/common";
 
 /**
  * Handles error display with special handling for GeoBlockError

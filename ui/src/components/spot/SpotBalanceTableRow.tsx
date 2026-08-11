@@ -1,4 +1,4 @@
-import { BigNum, SpotMarketConfig } from "@drift-labs/sdk";
+import { BigNum, SpotMarketConfig } from "@velocity-exchange/sdk";
 import { TableRow, TableCell } from "../ui/table";
 import { cn } from "@/lib/utils";
 

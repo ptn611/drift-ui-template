@@ -1,13 +1,13 @@
 import { produce } from "immer";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
-import { AuthorityDrift } from "@drift-labs/common";
+import { AuthorityDrift } from "@velocity-exchange/common";
 import {
   SpotMarketConfig,
   PerpMarketConfig,
   BigNum,
   DriftEnv,
-} from "@drift-labs/sdk";
+} from "@velocity-exchange/sdk";
 
 export type DriftEnvironment = Extract<DriftEnv, "devnet" | "mainnet-beta">;
 

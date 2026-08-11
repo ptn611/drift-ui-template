@@ -8,8 +8,8 @@ import {
   MarketId,
   TRADING_UTILS,
   UISerializableOrder,
-} from "@drift-labs/common";
-import { PositionDirection } from "@drift-labs/sdk";
+} from "@velocity-exchange/common";
+import { PositionDirection } from "@velocity-exchange/sdk";
 import { useDriftStore } from "@/stores/DriftStore";
 import { X } from "lucide-react";
 import { useUserAccountDataStore } from "@/stores/UserAccountDataStore";

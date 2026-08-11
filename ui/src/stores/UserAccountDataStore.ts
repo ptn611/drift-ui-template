@@ -2,14 +2,14 @@ import {
   EnhancedAccountData,
   UserAccountCache,
   UserAccountLookup,
-} from "@drift-labs/common";
+} from "@velocity-exchange/common";
 import { produce } from "immer";
 import { create } from "zustand";
 import { useDriftStore } from "./DriftStore";
 import {
   RevenueShareAccount,
   RevenueShareEscrowAccount,
-} from "@drift-labs/sdk";
+} from "@velocity-exchange/sdk";
 
 export interface UserAccountDataStore {
   set: (x: (s: UserAccountDataStore) => void) => void;

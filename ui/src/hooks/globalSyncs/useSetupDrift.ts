@@ -2,14 +2,14 @@ import { DriftEnvironment, useDriftStore } from "@/stores/DriftStore";
 import { useMarkPriceStore } from "@/stores/MarkPriceStore";
 import { useOraclePriceStore } from "@/stores/OraclePriceStore";
 import { useUserAccountDataStore } from "@/stores/UserAccountDataStore";
-import { IWallet, IWalletV2, MarketType } from "@drift-labs/sdk";
+import { IWallet, IWalletV2, MarketType } from "@velocity-exchange/sdk";
 import {
   AuthorityDrift,
   AuthorityDriftConfig,
   COMMON_UI_UTILS,
   MarketId,
   UserAccountCache,
-} from "@drift-labs/common";
+} from "@velocity-exchange/common";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { useEffect, useMemo, useRef } from "react";
 import { useDebounce, useLatest } from "react-use";

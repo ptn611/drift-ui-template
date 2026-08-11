@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { useDriftStore } from "@/stores/DriftStore";
 import { useUserAccountDataStore } from "@/stores/UserAccountDataStore";
-import { BigNum } from "@drift-labs/sdk";
+import { BigNum } from "@velocity-exchange/sdk";
 
 export const useUserManagement = () => {
   const { connected, publicKey } = useWallet();

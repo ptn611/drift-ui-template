@@ -8,7 +8,7 @@ import { FormSelect } from "../ui/form-select";
 import { Plus } from "lucide-react";
 import { toast } from "sonner";
 import { handleErrorToast } from "@/utils/toastUtils";
-import { SpotMarketConfig } from "@drift-labs/sdk";
+import { SpotMarketConfig } from "@velocity-exchange/sdk";
 
 interface CreateUserFormProps {
   spotMarketConfigs: SpotMarketConfig[];

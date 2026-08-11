@@ -4,7 +4,7 @@ import {
   PRICE_PRECISION,
   QUOTE_PRECISION_EXP,
   SpotMarketConfig,
-} from "@drift-labs/sdk";
+} from "@velocity-exchange/sdk";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import {
   Table,
@@ -22,7 +22,7 @@ import {
   ArrowDown,
 } from "lucide-react";
 import { useUserAccountDataStore } from "@/stores/UserAccountDataStore";
-import { MarketId, UserAccountCache } from "@drift-labs/common";
+import { MarketId, UserAccountCache } from "@velocity-exchange/common";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { SpotBalanceTableRow } from "./SpotBalanceTableRow";
 import { useOraclePriceStore } from "@/stores/OraclePriceStore";

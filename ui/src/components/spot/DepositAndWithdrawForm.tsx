@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { SpotMarketConfig, BigNum } from "@drift-labs/sdk";
+import { SpotMarketConfig, BigNum } from "@velocity-exchange/sdk";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import { Button } from "../ui/button";
 import { FormInput } from "../ui/form-input";
@@ -14,7 +14,7 @@ import { toast } from "sonner";
 import { handleErrorToast } from "@/utils/toastUtils";
 import { useDriftStore } from "@/stores/DriftStore";
 import { useUserAccountDataStore } from "@/stores/UserAccountDataStore";
-import { EnhancedAccountData } from "@drift-labs/common";
+import { EnhancedAccountData } from "@velocity-exchange/common";
 import { useWalletSpotBalances } from "@/hooks/spot/useWalletSpotBalances";
 
 type ActionType = "deposit" | "withdraw";

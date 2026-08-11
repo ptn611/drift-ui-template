@@ -1,5 +1,5 @@
 import { useDriftStore } from "@/stores/DriftStore";
-import { MarketId, TRADING_UTILS } from "@drift-labs/common";
+import { MarketId, TRADING_UTILS } from "@velocity-exchange/common";
 
 export const useGetPerpMarketTickSizeDecimals = (marketIndex: number) => {
   const driftClient = useDriftStore((s) => s.drift?.driftClient);

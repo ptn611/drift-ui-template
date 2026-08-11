@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { PerpMarketConfig, PositionDirection } from "@drift-labs/sdk";
+import { PerpMarketConfig, PositionDirection } from "@velocity-exchange/sdk";
 import { Card, CardContent, CardHeader, CardTitle } from "../../ui/card";
 import { Button } from "../../ui/button";
 import { FormInput } from "../../ui/form-input";
@@ -12,7 +12,7 @@ import {
   AssetSizeType,
   PerpOrderType,
 } from "./hooks/usePerpTrading";
-import { ENUM_UTILS } from "@drift-labs/common";
+import { ENUM_UTILS } from "@velocity-exchange/common";
 
 interface PerpTradeFormProps {
   perpMarketConfigs: PerpMarketConfig[];

@@ -9,10 +9,10 @@ import {
   PostOnlyParams,
   PRICE_PRECISION_EXP,
   QUOTE_PRECISION_EXP,
-} from "@drift-labs/sdk";
+} from "@velocity-exchange/sdk";
 import { useDriftStore } from "@/stores/DriftStore";
 import { useUserAccountDataStore } from "@/stores/UserAccountDataStore";
-import { ENUM_UTILS, PerpOrderParams, GeoBlockError } from "@drift-labs/common";
+import { ENUM_UTILS, PerpOrderParams, GeoBlockError } from "@velocity-exchange/common";
 import { toast } from "sonner";
 import { TransactionSignature } from "@solana/web3.js";
 import { BUILDER_AUTHORITY } from "@/constants/builderCode";

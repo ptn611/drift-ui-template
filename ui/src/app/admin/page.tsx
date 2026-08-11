@@ -12,9 +12,9 @@ import {
 import { Button } from "../../components/ui/button";
 import { AlertCircle, Settings } from "lucide-react";
 import { useDriftStore } from "@/stores/DriftStore";
-import { createRevenueShareAccountTxn } from "@drift-labs/common";
+import { createRevenueShareAccountTxn } from "@velocity-exchange/common";
 import { toast } from "sonner";
-import { fetchRevenueShareAccount, RevenueShareAccount } from "@drift-labs/sdk";
+import { fetchRevenueShareAccount, RevenueShareAccount } from "@velocity-exchange/sdk";
 
 /**
  * This creates a RevenueShareAccount for the connected user, and its different from the environment-set builder authority.

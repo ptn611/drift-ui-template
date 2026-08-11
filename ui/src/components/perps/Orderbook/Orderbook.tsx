@@ -9,16 +9,16 @@ import {
   DEFAULT_ORDERBOOK_GROUPING,
   L2WithOracleAndMarketData,
   TRADING_UTILS,
-} from "@drift-labs/common";
-import { MarketId } from "@drift-labs/common";
-import { OrderbookGrouping } from "@drift-labs/common";
+} from "@velocity-exchange/common";
+import { MarketId } from "@velocity-exchange/common";
+import { OrderbookGrouping } from "@velocity-exchange/common";
 import {
   BigNum,
   PRICE_PRECISION_EXP,
   BASE_PRECISION_EXP,
   ZERO,
   BN,
-} from "@drift-labs/sdk";
+} from "@velocity-exchange/sdk";
 import { BookOpenText } from "lucide-react";
 
 const ORDERBOOK_MAX_LEVELS = 20;

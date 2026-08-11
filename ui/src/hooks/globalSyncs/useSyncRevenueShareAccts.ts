@@ -3,7 +3,7 @@ import { useWallet } from "@solana/wallet-adapter-react";
 import {
   fetchRevenueShareEscrowAccount,
   fetchRevenueShareAccount,
-} from "@drift-labs/sdk";
+} from "@velocity-exchange/sdk";
 import { useUserAccountDataStore } from "@/stores/UserAccountDataStore";
 import { useQuery } from "@tanstack/react-query";
 import { BUILDER_AUTHORITY } from "@/constants/builderCode";
